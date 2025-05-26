@@ -216,7 +216,7 @@ export default function Dashboard({ user, tasks: initialTasks }) {
           {/* Welcome Card */}
           <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
             <h2 className="text-xl font-semibold text-gray-800 mb-2">Welcome back, {user.name.split(' ')[0]}!</h2>
-            <p className="text-gray-600 mb-4">Here's what you need to focus on today</p>
+            <p className="text-gray-600 mb-4">Here&apos;s what you need to focus on today</p>
           </div>
 
           {/* Tasks List */}
