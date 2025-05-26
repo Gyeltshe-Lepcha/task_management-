@@ -2,7 +2,7 @@
 
 
 :root {
-  --background: #ffffff;
+  --background: hwb(0 100% 0%);
   --foreground: #171717;
 }
 
