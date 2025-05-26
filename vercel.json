@@ -5,8 +5,16 @@
       "src": "package.json",
       "use": "@vercel/next",
       "config": {
-        "prebuild": "prisma generate"
+        "prebuild": "npx prisma generate",
+        "build": {
+          "env": {
+            "DATABASE_URL": "@database_url"
+          }
+        }
       }
     }
-  ]
+  ],
+  "env": {
+    "DATABASE_URL": "@database_url"
+  }
 } 
